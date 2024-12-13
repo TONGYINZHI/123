@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+
+header{
+    background-color:#cfdcfa ;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+h1{
+    color:bisque;
+    position: absolute;
+    left: 120px;
+    top: 0px;
+    line-height: 80px;
+    background-image: url(image/Logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 210px;
+    text-indent: -999999999999999999px;
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header a:hover{
+    color: rgb(199, 54, 127);
+    text-decoration: underline;
+}
+.最新消息{
+    background-color: antiquewhite;
+    color: rgb(255, 255, 255);
+    height: 85vh;
+    background-image: url(image/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.最新消息 h2{
+    font-size: 60px;
+
+}
+.最新消息 p{
+    color: beige;
+    font-size: 18px;
+    margin: 25px 0;
+}
+.最新消息 a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #ACACAC;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.標語{
+    background-color: rgb(201, 191, 148);
+    color: rgb(253, 253, 253);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+.店內及活動{
+    display: flex;
+}
+.店內及活動 img{
+    width: 50%;
+}
+.info{
+    width: 50%;
+    background-color: rgb(243, 234, 192);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.info p{
+    align-items: center;
+    line-height: 2em;}
+.商品{
+        display: flex;                         
+        background-color: rgb(200, 151,123);
+        justify-content: space-between; 
+        align-items: center;                  
+        padding: 100px 180px 80px;         
+    }
+    
+.商品 div{
+        width: 300px;                           
+        text-align: center;                     
+    }
+    .商品 img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .商品 h3{
+        font-size: 20px;
+    margin: 20px 0;
+    }
+    .商品 p{
+        font-size: 14px; 
+        line-height: 1.6em;
+    }
+    /*響應式網頁*/
+@media screen and (max-width:768px){
+    header ul{
+        display: none;
+    }}
+.footer{
+    background-color:rgb(246,123,211) ;
+    color: rgb(0,0,0);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
